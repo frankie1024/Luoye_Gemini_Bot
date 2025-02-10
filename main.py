@@ -26,7 +26,7 @@ async def main():
     await bot.set_my_commands(
         commands=[
             telebot.types.BotCommand("start", "Start"),
-            telebot.types.BotCommand("gemini", "using gemini-2.0-flash-exp"),
+            telebot.types.BotCommand("gemini", "using gemini-2.0-flash"),
             telebot.types.BotCommand("gemini_pro", "using gemini-1.5-pro"),
             telebot.types.BotCommand("clear", "Clear all history"),
             telebot.types.BotCommand("switch","switch default model")
